@@ -3,8 +3,6 @@ import locale
 from datetime import datetime, time, timedelta
 import re
 
-# Sistem dilini Türkçe'ye ayarla
-locale.setlocale(locale.LC_ALL, 'tr_TR.UTF-8')
 
 def validate_time_format(time_str):
     """
